@@ -1,0 +1,21 @@
+LibRoot Manual
+
+libroot is a API for C/C++, it is written in C++ but can be used in both C and C++ Projects.
+
+You can use G++ or LLVM Clang++ to compile the code.
+
+To easily use libroot in your Project include the libroot.h file, thats in the headers directory in the Project Folder.
+
+libroot is very simple.
+
+This is how it works:
+
+1) When ran
+|
+|- Asks for Password /
+		     -- If not found, it spits out an error.
+2) If Password is correct, then it runs it as root.
+
+It encrypts the root password, called "Keys" in the libroot API.
+
+
